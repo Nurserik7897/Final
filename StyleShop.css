@@ -1,0 +1,13 @@
+.price{
+	    position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 22px;
+  overflow: hidden;
+  transition: 0.2s;
+  font: 100 25px/1 Arial Narrow, sans-serif;
+}

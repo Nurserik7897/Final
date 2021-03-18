@@ -1,0 +1,270 @@
+#logo{
+	position: absolute;
+	left: 150px;
+	top: 16px;
+
+}
+
+
+
+
+#m1{
+    position: absolute;
+    top: 40px;
+    left: 400px;
+
+
+}
+.МАГАЗИН{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 22px;
+	overflow: hidden;
+	transition: 0.2s;
+	font: 100 16px/1 Arial Narrow, sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+#m2{
+	position: absolute;
+    top: 40px;
+	left: 550px;
+}
+
+.МАСТЕР-КЛАССЫ{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 22px;
+	overflow: hidden;
+	transition: 0.2s;
+	font: 100 15px/1 Arial Narrow, sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+#m3{
+	position: absolute;
+	    top: 40px;
+	    left: 750px;
+}
+
+.О_НАС{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 22px;
+	overflow: hidden;
+	transition: 0.2s;
+	font: 100 15px/1 Arial Narrow, sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+#m4{
+	position: absolute;
+	    top: 40px;
+	    	left: 880px;
+
+}
+
+.РЕГЕСТРАЦИЯ{
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-size: 22px;
+	overflow: hidden;
+	transition: 0.2s;
+	font: 100 15px/1 Arial Narrow, sans-serif;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+
+#line{
+	position: absolute;
+	top: 130px;
+}
+.line{
+	background-color: black;
+	opacity: 0.1;
+	height: 2px;
+	width: 100%;
+}
+
+.carousel-wrapper{
+  height:400px;
+  position:absolute;
+  width:800px;
+  margin:0 auto;
+}
+.carousel-item{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:25px 50px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+}
+.arrow{
+  border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.arrow-prev{
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+}
+ 
+.arrow-next{
+    right:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(-45deg);
+  }
+
+.light{
+  color:white;
+}
+
+@media (max-width: 480px) {
+      .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+      }
+    }
+}
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+  }
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+  background:url('http://blossomuniverse.ru/wa-data/public/shop/products/73/00/73/images/317/317.500.jpg');
+  background-size: 100%;
+   height: 500px;
+   width: 500px;
+ 
+  }
+.item-2{
+  background:url('http://blossomuniverse.ru/wa-data/public/shop/products/81/00/81/images/328/328.500x500.jpg');
+   background-size:cover;
+   height: 500px;
+   width: 500px;
+}
+.item-3{
+  background:url('http://blossomuniverse.ru/wa-data/public/shop/products/91/00/91/images/379/379.500.jpg');
+   background-size:cover;
+    height: 500px;
+   width: 500px;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+  }
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+  }
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+  }
+
+#img1{
+  position: absolute;
+  top: 900px;
+  left: 100px;
+
+}
+#img2{
+  position: absolute;
+  top: 900px;
+  left: 525px;
+}
+#img3{
+  position: absolute;
+  top: 900px;
+  right: 100px;
+}
+
+.ФЛОРАРИУМЫ{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 22px;
+  overflow: hidden;
+  transition: 0.2s;
+  font: 100 25px/1 Arial Narrow, sans-serif;
+  
+}
+#img1t{
+  position: absolute;
+  top: 850px;
+  left: 140px;
+}
+.НАБОРЫСДЕЛАЙСАМ{
+    position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 22px;
+  overflow: hidden;
+  transition: 0.2s;
+  font: 100 25px/1 Arial Narrow, sans-serif;
+}
+#img2t{
+  position: absolute;
+  top: 850px;
+  left: 525px;
+}
+#img3t{
+    position: absolute;
+  top: 850px;
+  right: 130px;
+}
+.МАСТЕР_КЛАССЫ{
+    position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-size: 22px;
+  overflow: hidden;
+  transition: 0.2s;
+  font: 100 25px/1 Arial Narrow, sans-serif;
+}
+
